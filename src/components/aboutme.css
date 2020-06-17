@@ -1,0 +1,157 @@
+/*About me styling*/
+.container div
+{
+	padding: 3%;
+	padding-left: 10%;
+}
+
+
+.flex1 
+{
+	display: flex;
+	height:50%;
+	width:70%;
+
+}
+.flex2 
+{
+	display: flex;
+	height:50%;
+	width:70%;
+}
+.flex3 
+{
+	display: flex;
+	height:50%;
+	width:70%
+}
+
+.image-mountain{
+	
+border-radius:25px;
+height:105%;
+width:105%;
+}
+
+
+.image-myself{
+	border-radius:25px;
+	height:105%;
+width:105%;
+
+}
+.image-machines{
+	border-radius:25px;
+	height:105%;
+width:105%;
+}
+p{
+	text-align: justify;
+}
+
+@media only screen and (max-width: 768px)
+{
+	.container div
+{
+	padding-left: 3%;
+	padding-top: 5%;
+	padding-right:9%;
+}
+.flex1 
+{
+	display: flex;
+	height:50%;
+	width:100%;
+
+}
+.flex2
+{
+	display: flex;
+	height:50%;
+	width:100%;
+
+}
+.flex3
+{
+	display: flex;
+	height:50%;
+	width:100%;
+
+}
+	.image-mountain{
+	
+border-radius:15px;
+height:70%;
+width:100%;
+}
+.image-myself{
+	border-radius:15px;
+	height:90%;
+width:100%;
+
+}
+.image-machines{
+	border-radius:15px;
+	height:100%;
+width:105%;
+}
+
+}
+
+@media only screen and (max-width: 425px)
+{
+.container div
+{
+	padding-top: 8%;
+	padding-left: 10%
+}
+.flex1 
+{
+	display: inline-block;
+	height:50%;
+	width:70%;
+
+}
+.flex2 
+{
+	display: inline-block;
+	height:50%;
+	width:70%;
+	position: relative;
+}
+.image-me
+{
+	position:absolute;
+	top:0;
+
+}
+.interests
+{
+	position: relative;
+	top:185px;
+}
+.section{
+	position: sticky;
+}
+.flex3 
+{
+	display: inline-block;
+	height:50%;
+	width:70%
+}
+.image-robots{
+	position: relative;
+	top:140px;
+}
+.coding{
+	position: relative;
+	top: 140px;
+}
+.image-myself{
+	border-radius:15px;
+	height:70%;
+width:90%;
+
+
+}
+}
